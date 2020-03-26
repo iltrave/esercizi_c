@@ -2,8 +2,8 @@
 int main ()
 {
   int top;
-  top=1000;
-  printf("numeri primifino a %d\n1    2    ",top);
+  top=10000;
+  printf("numeri primifino a %d\n1    2    3    ",top);
   for(int a=2;a<=top;++a)
   {
       for(int i=a/2;i>1;--i)
